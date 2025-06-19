@@ -37,11 +37,13 @@
         }
 
         .nav-list {
+            margin:0;
+            padding:0;
             list-style: none;
             display: flex;
             justify-content: center;
-            gap: 50px;
-            flex-wrap: wrap;
+            gap: 200px;
+            flex-wrap: 5mm;
         }
 
         .nav-link a {
@@ -79,7 +81,16 @@
             overflow: hidden;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
-
+        .nav-link-activo {
+            border-radius: 20%;
+            background-color: #00bfff;
+            color: white;
+        }
+        .nav-link-activo:hover {
+            border-radius: 10%;
+            background-color: #0099cc;
+            color:white;
+        }
         .tarjeta:hover {
             background-color: rgba(2, 116, 0, 0.95);
             color:white;
