@@ -3,18 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mí</title>
+    <title>Contactos</title>
+    <link rel="stylesheet" href="contactos.css">
 </head>
-<body>
-    <Header><h1>Daniel Antonio Sarmiento</h1></Header>
-    <body>
-        <p>Desarrollador de software</p>
-        <li><a href="./index.html">Sobre mí</a></li>
-        <li><a href="proyectos.html">Proyectos</a></li>
-        <li><a href="contactos.html">Contactos</a></li>
-    </body>
-    <div><h1>Contactos</h1></div>
-        <p>Teléfono: +57 322 5761257</p>
-        <p>Si</p>
+   <body>
+    <header class="header">
+        <img class="foto" src="perfil.jpg"></img>
+        <h1 class="nombre">Daniel Antonio Sarmiento Amador</h1>
+        <p class="titulo">Desarrollador de Software</p>
+    </header>
+
+    <nav class="navegacion">
+        <ul class="nav-list">
+            <li class="nav-link"><a href="./index.html">Sobre mí</a></li>
+            <li class="nav-link"><a href="proyectos.html">Proyectos</a></li>
+            <li class="nav-link"><a href="contactos.html">Contactos</a></li>
+        </ul>
+    </nav>
+
+    <div class="seccion-header">
+        <h2>Contactos y educación</h2>
+    </div>
+
+    <main class="contenido-principal">
+        <div class="tarjeta">
+            <div class="tarjeta-titulo">
+                Contactos
+            </div>
+            <div class="tarjeta-contenido">
+            <p><img class="icono-contacto" src="logo_github.png"></src><a href="https://github.com/DASA1409">GitHub</a></p>
+            <p><img class="icono-contacto" src="email.png"></src><a href="mailto:daniel.sarmientoa@comunidad.iush.edu.co">E-Mail</a></p>
+            <p><img class="icono-contacto" src="telefono.png"></src><a href="tel:+57 322 5761257">Teléfono</a></p>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-titulo">
+                Educación
+            </div>
+            <div class="tarjeta-contenido">
+            <li><a>Primaria y bachillerato: Liceo San Rafael de Belén</a></li>
+            <li><a>Educación superior(Actualmente cursando): Institución Universitaria Salazar y Herrera</a></li>
+            </div>
+        </div>
+    </main>
 </body>
 </html>

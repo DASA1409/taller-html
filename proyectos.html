@@ -3,30 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mí</title>
+    <title>Proyectos</title>
     <link rel="stylesheet" href="proyectos.css">
 </head>
-    <Header class = "header"><h1 class="nombre">Daniel Antonio Sarmiento</h1>
-    <p class = "titulo">Desarrollador de software</p></Header>
+   <body>
+    <header class="header">
+        <img class="foto" src="perfil.jpg"></img>
+        <h1 class="nombre">Daniel Antonio Sarmiento</h1>
+        <p class="titulo">Desarrollador de Software</p>
+    </header>
+
     <nav class="navegacion">
         <ul class="nav-list">
-        <li class="nav-link"><a href="./index.html">Sobre mí</a></li>
-        <li class="nav-link"><a href="proyectos.html">Proyectos</a></li>
-        <li class="nav-link"><a href="contactos.html">Contactos</a></li>
+            <li class="nav-link"><a href="./index.html">Sobre mí</a></li>
+            <li class="nav-link"><a href="proyectos.html">Proyectos</a></li>
+            <li class="nav-link"><a href="contactos.html">Contactos</a></li>
         </ul>
     </nav>
-    <main>
-    <body>
-        <section class="seccion">
-        <div><h2 class="seccion-titulo">Proyectos</h2></div>
-        <h3 class="proyecto-titulo">Tutor Visual en C#</h3>
-        <p class="proyecto-descripcion"> Un programa con que permite ver paso
-            a paso el funcionamiento de estructuras de datos</p>
-        <h3 class="proyecto-titulo">Red WAN para campus universitario</h3>
-        <p class="proyecto-descripcion"> Diseño de red hecho en Cisco Packet Tracer con el fin de mejorar la estabilidad
-            de la red en el campus de una universidad
-        </p>
-        </section>  
-    </body>
-</main>
+
+    <div class="seccion-header">
+        <h2>Proyectos</h2>
+    </div>
+
+    <main class="contenido-principal">
+        <div class="tarjeta">
+            <div class="tarjeta-titulo">
+                Tutor en C# (Completado)
+            </div>
+            <div class="tarjeta-contenido">
+                Esta herramienta fue hecha con el fin de ayudar a los estudiantes a entender el funcionamiento de 
+                las estructuras de datos.
+            </div>
+        </div>
+
+        <div class="tarjeta">
+            <div class="tarjeta-titulo">
+                Red WAN para campus universitario (Completado)
+            </div>
+            <div class="tarjeta-contenido">
+                Topología lógica de red creada en Cisco Packet Tracer con el fin de mejorar el funcionamiento de la
+                 redes de un campus
+                universitario.
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-titulo">
+                Port web de Tutor C# (En progreso)
+            </div>
+            <div class="tarjeta-contenido">
+                Una adaptación para la web del proyecto del tutor C# usando html, css y JavaScript.
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="tarjeta-titulo">
+                Betty La Sabionda (En progreso)
+            </div>
+            <div class="tarjeta-contenido">
+                Una enciclopedia online con información sobre la exitosa serie colombiana "Betty la fea",
+                con información de los personajes, capítulos, y curiosidades.
+            </div>
+        </div>
+    </main>
+</body>
 </html>
